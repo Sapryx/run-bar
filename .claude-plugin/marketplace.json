@@ -1,0 +1,5 @@
+{
+  "name": "run-bar",
+  "owner": { "name": "sapryx" },
+  "plugins": [{ "name": "run-bar", "source": "./" }]
+}

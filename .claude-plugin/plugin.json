@@ -1,0 +1,7 @@
+{
+  "name": "run-bar",
+  "version": "0.1.0",
+  "description": "Buttons above the prompt that build, run and stop the project as configured in .claude/run.json",
+  "author": { "name": "sapryx" },
+  "types": "./types/index.d.ts"
+}
