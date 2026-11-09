@@ -2,6 +2,8 @@
 
 A Claude Code plugin that draws buttons above the prompt to build, run and stop the project of the current session. The targets come from `.claude/run.json` in the session's working directory; without that file the bar is hidden.
 
+<img width="980" height="136" alt="image" src="https://github.com/user-attachments/assets/56a21272-7353-49bf-b109-cc25c0db4623" />
+
 A press runs the target's `build` command with a spinner, then its `run` command. While either runs, the buttons turn into Stop, which kills that process. A failure shows the exit code and the last line of output.
 
 The plugin also ships the `run-config` skill, which lets the agent inspect a project and write its `.claude/run.json`.
